@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">PocketTracker</string>
+    <string name="app_name" translatable="false">PocketTracker</string>
+
+    <!-- Main Activity -->
+    <string name="btn_registrar_gasto">Registrar Gasto</string>
+    <string name="btn_ver_lista">Ver Gastos</string>
+
+    <!-- Gasto Form -->
+    <string name="title_registrar_gasto">Registrar Gasto</string>
+    <string name="label_concepto">Concepto</string>
+    <string name="hint_concepto">Ej. Supermercado</string>
+    <string name="label_monto">Monto</string>
+    <string name="hint_monto">0.00</string>
+    <string name="label_fecha">Fecha</string>
+    <string name="hint_fecha">DD/MM/AAAA</string>
+    <string name="label_categoria">Categoría</string>
+    <string name="hint_categoria">Ej. Comida, Transporte</string>
+    <string name="btn_guardar_gasto">Guardar Gasto</string>
+    <string name="error_campos_vacios">Por favor, llena todos los campos</string>
+    <string name="alerta_gasto_elevado">Atención, gasto elevado detectado</string>
+    <string name="exito_guardado">Gasto Guardado con Éxito</string>
+
+    <!-- Gasto List -->
+    <string name="title_mis_gastos">Mis Gastos</string>
+    <string name="label_total">Total: $%s</string>
 </resources>

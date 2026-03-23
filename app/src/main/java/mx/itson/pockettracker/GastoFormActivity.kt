@@ -42,16 +42,17 @@ class GastoFormActivity : AppCompatActivity() {
 
         if (concepto.isEmpty() || montoStr.isEmpty() || fecha.isEmpty() || categoria.isEmpty()){
             vibrar(TipoVibracion.ERROR_CAMPOS)
-            Toast.makeText(this, "Por favor, llena todos los campos", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.error_campos_vacios), Toast.LENGTH_SHORT).show()
+            return
         }
         val monto = montoStr.toDoubleOrNull()?: 0.0
         if (monto>1000){
             vibrar(TipoVibracion.ALERTA_PRECIO_ALTO)
-            Toast.makeText(this, "Atencion, gasto elevado detectado", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.alerta_gasto_elevado), Toast.LENGTH_SHORT).show()
         }
 
         vibrar(TipoVibracion.EXITO)
-        Toast.makeText(this, "Gasto Guardado Exito", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, getString(R.string.exito_guardado), Toast.LENGTH_SHORT).show()
         finish()
     }
 
