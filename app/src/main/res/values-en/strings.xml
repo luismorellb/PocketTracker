@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PocketTracker</string>
     <string name="btn_registrar_gasto">" Register Expense"</string>
     <string name="btn_ver_lista">View Expenses</string>
     <string name="title_registrar_gasto">Register Expense</string>
     <string name="label_concepto">Description</string>
     <string name="hint_concepto">e.g. Supermarket</string>
+    <string name="hint_producto">Ex. Coke</string>
     <string name="label_monto">Amount</string>
     <string name="hint_monto">0.00</string>
+    <string name="hint_tienda">Ex. 7Eleven, Walmart</string>
     <string name="label_fecha">Date</string>
     <string name="hint_fecha">MM/DD/YYYY</string>
     <string name="label_categoria">Category</string>
     <string name="hint_categoria">e.g. Food, Transport</string>
+    <string name="btn_seleccionar_fecha">Select</string>
     <string name="btn_guardar_gasto">Save Expense</string>
     <string name="error_campos_vacios">Please fill in all fields</string>
     <string name="alerta_gasto_elevado">Warning: High expense detected</string>
     <string name="exito_guardado">Expense saved successfully</string>
     <string name="title_mis_gastos">My Expenses</string>
     <string name="label_total">Total: $%s</string>
+    <string name="label_producto">Product</string>
+    <string name="label_tienda">Store</string>
 </resources>
